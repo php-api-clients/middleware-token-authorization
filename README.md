@@ -1,11 +1,11 @@
 # Token authorization middleware
 
-[![Build Status](https://travis-ci.org/php-api-clients/travis.svg?branch=master)](https://travis-ci.org/php-api-clients/travis)
-[![Latest Stable Version](https://poser.pugx.org/api-clients/travis/v/stable.png)](https://packagist.org/packages/api-clients/travis)
-[![Total Downloads](https://poser.pugx.org/api-clients/travis/downloads.png)](https://packagist.org/packages/api-clients/travis)
-[![Code Coverage](https://scrutinizer-ci.com/g/php-api-clients/travis/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/php-api-clients/travis/?branch=master)
-[![License](https://poser.pugx.org/api-clients/travis/license.png)](https://packagist.org/packages/api-clients/travis)
-[![PHP 7 ready](http://php7ready.timesplinter.ch/php-api-clients/travis/badge.svg)](https://travis-ci.org/php-api-clients/travis)
+[![Build Status](https://travis-ci.org/php-api-clients/middleware-token-authorization.svg?branch=master)](https://travis-ci.org/php-api-clients/middleware-token-authorization)
+[![Latest Stable Version](https://poser.pugx.org/api-clients/middleware-token-authorization/v/stable.png)](https://packagist.org/packages/api-clients/middleware-token-authorization)
+[![Total Downloads](https://poser.pugx.org/api-clients/middleware-token-authorization/downloads.png)](https://packagist.org/packages/api-clients/middleware-token-authorization)
+[![Code Coverage](https://scrutinizer-ci.com/g/php-api-clients/middleware-token-authorization/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/php-api-clients/middleware-token-authorization/?branch=master)
+[![License](https://poser.pugx.org/api-clients/middleware-token-authorization/license.png)](https://packagist.org/packages/api-clients/middleware-token-authorization)
+[![PHP 7 ready](http://php7ready.timesplinter.ch/php-api-clients/middleware-token-authorization/badge.svg)](https://travis-ci.org/php-api-clients/middleware-token-authorization)
 
 # License
 
