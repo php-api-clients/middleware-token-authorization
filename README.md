@@ -7,13 +7,6 @@
 [![License](https://poser.pugx.org/api-clients/travis/license.png)](https://packagist.org/packages/api-clients/travis)
 [![PHP 7 ready](http://php7ready.timesplinter.ch/php-api-clients/travis/badge.svg)](https://travis-ci.org/php-api-clients/travis)
 
-
-# Goals
-
-* 100% TravisCI [API](https://docs.travis-ci.com/api) support
-* Third party API support (like Pusher)
-* Both synchronous and asynchronous
-
 # License
 
 The MIT License (MIT)
