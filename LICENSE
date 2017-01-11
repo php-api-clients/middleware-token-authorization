@@ -1,24 +1,6 @@
-# Token authorization middleware
-
-[![Build Status](https://travis-ci.org/php-api-clients/travis.svg?branch=master)](https://travis-ci.org/php-api-clients/travis)
-[![Latest Stable Version](https://poser.pugx.org/api-clients/travis/v/stable.png)](https://packagist.org/packages/api-clients/travis)
-[![Total Downloads](https://poser.pugx.org/api-clients/travis/downloads.png)](https://packagist.org/packages/api-clients/travis)
-[![Code Coverage](https://scrutinizer-ci.com/g/php-api-clients/travis/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/php-api-clients/travis/?branch=master)
-[![License](https://poser.pugx.org/api-clients/travis/license.png)](https://packagist.org/packages/api-clients/travis)
-[![PHP 7 ready](http://php7ready.timesplinter.ch/php-api-clients/travis/badge.svg)](https://travis-ci.org/php-api-clients/travis)
-
-
-# Goals
-
-* 100% TravisCI [API](https://docs.travis-ci.com/api) support
-* Third party API support (like Pusher)
-* Both synchronous and asynchronous
-
-# License
-
 The MIT License (MIT)
 
-Copyright (c) 2017 Cees-Jan Kiewiet
+Copyright (c) 2016 Cees-Jan Kiewiet
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
