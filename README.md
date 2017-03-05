@@ -7,6 +7,17 @@
 [![License](https://poser.pugx.org/api-clients/middleware-token-authorization/license.png)](https://packagist.org/packages/api-clients/middleware-token-authorization)
 [![PHP 7 ready](http://php7ready.timesplinter.ch/php-api-clients/middleware-token-authorization/badge.svg)](https://travis-ci.org/php-api-clients/middleware-token-authorization)
 
+# Installation
+
+To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `^`.
+
+```
+composer require api-clients/middleware-token-authorization 
+```
+# Usage
+
+[See the transport package how to use this middleware.](https://github.com/php-api-clients/transport#middleware)
+
 # License
 
 The MIT License (MIT)
