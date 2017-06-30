@@ -58,7 +58,7 @@ final class TokenAuthorizationHeaderMiddlewareTest extends TestCase
     {
         $request = new Request('GET', 'https://example.com/');
         $middleware = new TokenAuthorizationHeaderMiddleware();
-        $changedRequest = await($middleware->pre($request, $options), Factory::create());
+        $changedRequest = await($middleware->pre($request, 'abc', $options), Factory::create());
 
         if ($hasHeader === false) {
             self::assertFalse($changedRequest->hasHeader('Authorization'));
