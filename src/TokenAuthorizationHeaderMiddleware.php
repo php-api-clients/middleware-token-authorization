@@ -15,7 +15,6 @@ use function React\Promise\resolve;
  */
 class TokenAuthorizationHeaderMiddleware implements MiddlewareInterface
 {
-    use DefaultPriorityTrait;
     use PostTrait;
     use ErrorTrait;
 
@@ -24,8 +23,11 @@ class TokenAuthorizationHeaderMiddleware implements MiddlewareInterface
      * @param array $options
      * @return CancellablePromiseInterface
      */
-    public function pre(RequestInterface $request, array $options = []): CancellablePromiseInterface
-    {
+    public function pre(
+        RequestInterface $request,
+        string $transactionId,
+        array $options = []
+    ): CancellablePromiseInterface {
         if (!isset($options[self::class][Options::TOKEN])) {
             return resolve($request);
         }
