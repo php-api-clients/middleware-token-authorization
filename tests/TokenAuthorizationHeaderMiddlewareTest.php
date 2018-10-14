@@ -2,13 +2,12 @@
 
 namespace ApiClients\Tests\Middleware\TokenAuthorization;
 
+use ApiClients\Middleware\TokenAuthorization\Options;
+use ApiClients\Middleware\TokenAuthorization\TokenAuthorizationHeaderMiddleware;
 use ApiClients\Tools\TestUtilities\TestCase;
 use React\EventLoop\Factory;
 use RingCentral\Psr7\Request;
-use ApiClients\Middleware\TokenAuthorization\TokenAuthorizationHeaderMiddleware;
-use ApiClients\Middleware\TokenAuthorization\Options;
 use function Clue\React\Block\await;
-use function React\Promise\resolve;
 
 final class TokenAuthorizationHeaderMiddlewareTest extends TestCase
 {
@@ -17,7 +16,7 @@ final class TokenAuthorizationHeaderMiddlewareTest extends TestCase
         yield [
             [],
             false,
-            ''
+            '',
         ];
 
         yield [
@@ -27,7 +26,7 @@ final class TokenAuthorizationHeaderMiddlewareTest extends TestCase
                 ],
             ],
             false,
-            ''
+            '',
         ];
 
         yield [
@@ -37,7 +36,7 @@ final class TokenAuthorizationHeaderMiddlewareTest extends TestCase
                 ],
             ],
             false,
-            ''
+            '',
         ];
 
         yield [
@@ -47,7 +46,7 @@ final class TokenAuthorizationHeaderMiddlewareTest extends TestCase
                 ],
             ],
             true,
-            'token kroket'
+            'token kroket',
         ];
     }
 
@@ -62,6 +61,7 @@ final class TokenAuthorizationHeaderMiddlewareTest extends TestCase
 
         if ($hasHeader === false) {
             self::assertFalse($changedRequest->hasHeader('Authorization'));
+
             return;
         }
 
