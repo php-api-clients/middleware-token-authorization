@@ -5,9 +5,9 @@ namespace ApiClients\Tests\Middleware\TokenAuthorization;
 use ApiClients\Middleware\TokenAuthorization\Options;
 use ApiClients\Middleware\TokenAuthorization\TokenAuthorizationHeaderMiddleware;
 use ApiClients\Tools\TestUtilities\TestCase;
+use function Clue\React\Block\await;
 use React\EventLoop\Factory;
 use RingCentral\Psr7\Request;
-use function Clue\React\Block\await;
 
 /**
  * @internal
